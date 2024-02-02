@@ -1,0 +1,78 @@
+
+.game{
+  background-color:white;
+  width: 80vw;
+  height: 80vh;
+  padding: 10px;
+  margin-top: 5%;
+  margin-left: 100px;
+}
+
+body{
+  background-color: rgb(116, 40, 202);
+}
+
+h1,.question{
+  text-align: center;
+  cursor: pointer;
+  font-size: larger;
+  font-weight: bold;
+
+}
+
+p{
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.question{
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.options{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 120px 30px 10px 30px;
+  cursor: pointer;
+}
+
+.option{
+  background-color: rgb(0, 191, 255);
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 40% 0px 40%;
+  cursor: pointer;
+}
+
+.prev{
+  font-size: small;
+  background-color: rgb(70, 124, 210);
+  border: 0px;
+  padding: 5px;cursor: pointer;
+}
+.next{
+  background-color: rgb(55, 207, 55);
+  border: 0px;
+  padding: 5px 15px;cursor: pointer;
+}
+
+.quit{
+  background-color: red;
+  border: 0px;
+  padding: 5px 15px;cursor: pointer;
+}
